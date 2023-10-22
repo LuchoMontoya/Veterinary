@@ -28,7 +28,7 @@ namespace Veterinary.Shared.Entities
         [Required(ErrorMessage = "La direccion es requerida")]
         public string Addres { get; set; } = null;
 
-        public string FullName => $"{FirstName}{LastName}";
+        public string FullName => $"{FirstName} {LastName}";
 
 
     }

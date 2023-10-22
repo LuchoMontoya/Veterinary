@@ -5,7 +5,7 @@
 namespace Veterinary.API.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class New : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
